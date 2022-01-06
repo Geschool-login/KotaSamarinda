@@ -12,10 +12,10 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Madrasah Sumut"
+    const title1 = "Madrasah Jateng"
     const title2 = "Blended Learning"
     const slogan = "Jika orang berpendidikan belum tentu sukses, maka orang tanpa pendidikan akan susah mencapai kesuksesan."
-    const copyright = "2021 Madrasah Sumut Blended Learning - Didukung oleh Geschool"
+    const copyright = "2021 Madrasah Jateng Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>
