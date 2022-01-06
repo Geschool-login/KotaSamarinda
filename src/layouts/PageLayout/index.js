@@ -12,10 +12,10 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Jeneponto Blended"
-    const title2 = "Learning"
-    const slogan = "Jika orang berpendidikan belum tentu sukses, maka orang tanpa pendidikan akan susah mencapai kesuksesan."
-    const copyright = "2021 Jeneponto Blended Learning - Didukung oleh Geschool"
+    const title1 = "Jawa Tengah"
+    const title2 = "Blended Learning"
+    const slogan = "Berjuang untuk sukses tanpa kerja keras seperti mencoba memanen ketika kamu belum menanam."
+    const copyright = "2021 Jawa Tengah Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>
