@@ -5,17 +5,17 @@ import Hero from "../../components/Hero"
 import Footer from "../../components/Footer"
 
 // EDITABLE
-import background from "../../assets/img/background.png" //Background
+import background from "../../assets/img/background.jpg" //Background
 import logo from '../../assets/img/logo.png'; //Logo
 
 
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Pekanbaru"
+    const title1 = "Madrasah Sumut"
     const title2 = "Blended Learning"
-    const slogan = "Pendidikan bukan cuma pergi ke sekolah dan mendapatkan gelar. Tapi juga soal memperluas pengetahuan dan menyerap ilmu kehidupan."
-    const copyright = "2021 Pekanbaru Blended Learning - Didukung oleh Geschool"
+    const slogan = "Jika orang berpendidikan belum tentu sukses, maka orang tanpa pendidikan akan susah mencapai kesuksesan."
+    const copyright = "2021 Madrasah Sumut Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>
