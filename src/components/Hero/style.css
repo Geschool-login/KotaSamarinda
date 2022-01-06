@@ -35,8 +35,8 @@
 }
 
 .hero .logo img {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 120px;
 }
 
 .hero h5 {
@@ -196,8 +196,8 @@
     }
 
     .logo-title .logo img {
-        width: 75px;
-        height: 75px;
+        width: 80px;
+        height: 90px;
     }
 
     .logo-title .deskripsi {

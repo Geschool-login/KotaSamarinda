@@ -5,17 +5,17 @@ import Hero from "../../components/Hero"
 import Footer from "../../components/Footer"
 
 // EDITABLE
-import background from "../../assets/img/background.jpg" //Background
+import background from "../../assets/img/background.png" //Background
 import logo from '../../assets/img/logo.png'; //Logo
 
 
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Banten Blended"
-    const title2 = "Learning"
-    const slogan = "Gantungkan cita-cita mu setinggi langit! Bermimpilah setinggi langit. Jika engkau jatuh, engkau akan jatuh di antara bintang-bintang."
-    const copyright = "2021 Banten Blended Learning - Didukung oleh Geschool"
+    const title1 = "Pekanbaru"
+    const title2 = "Blended Learning"
+    const slogan = "Pendidikan bukan cuma pergi ke sekolah dan mendapatkan gelar. Tapi juga soal memperluas pengetahuan dan menyerap ilmu kehidupan."
+    const copyright = "2021 Pekanbaru Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>

@@ -1,23 +1,23 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import './style.css'
 
 export default function Index() {
 
     const [summary, setSummary] = useState({})
 
-    const getSummary = async () => {
+    const getSummary = useCallback(async () => {
         try {
             let response = await axios.get('_api/main/stats')
             setSummary(response.data.summary)
         } catch (e) {
             console.log(e.message)
         }
-    }
+    }, [setSummary]);
 
     useEffect(() => {
         getSummary();
-    }, [])
+    }, [getSummary])
 
     return (
         <div className="data-mobile">
@@ -29,11 +29,11 @@ export default function Index() {
                     <div className="d-flex justify-content-center">
                         <fieldset className="col-5 mr-3 fieldset">
                             <legend className="legend float-none">Harian</legend>
-                            {summary.schools_1d}
+                            {summary.teachers_1d > 0 ? summary.schools_1d : '0'}
                         </fieldset>
                         <fieldset className="col-5 fieldset">
                             <legend className="legend float-none">Total</legend>
-                            {summary.schools}
+                            {summary.teachers_1d > 0 ? summary.schools : '0'}
                         </fieldset>
                     </div>
                 </div>
@@ -44,11 +44,11 @@ export default function Index() {
                     <div className="d-flex justify-content-center">
                         <fieldset className="col-5 mr-3 fieldset">
                             <legend className="legend float-none">Harian</legend>
-                            {summary.teachers_1d}
+                            {summary.teachers_1d > 0 ? summary.teachers_1d : '0'}
                         </fieldset>
                         <fieldset className="col-5 fieldset">
                             <legend className="legend float-none">Total</legend>
-                            {summary.teachers}
+                            {summary.teachers_1d > 0 ? summary.teachers : '0'}
                         </fieldset>
                     </div>
                 </div>
@@ -59,11 +59,11 @@ export default function Index() {
                     <div className="d-flex justify-content-center">
                         <fieldset className="col-5 mr-3 fieldset">
                             <legend className="legend float-none">Harian</legend>
-                            {summary.students_1d}
+                            {summary.teachers_1d > 0 ? summary.students_1d : '0'}
                         </fieldset>
                         <fieldset className="col-5 fieldset">
                             <legend className="legend float-none">Total</legend>
-                            {summary.students}
+                            {summary.teachers_1d > 0 ? summary.students : '0'}
                         </fieldset>
                     </div>
                 </div>
