@@ -1,24 +1,23 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import './style.css'
 
 export default function Index() {
 
     const [summary, setSummary] = useState({})
 
-    const getSummary = async () => {
+    const getSummary = useCallback(async () => {
         try {
             let response = await axios.get('_api/main/stats')
             setSummary(response.data.summary)
-            console.log(summary)
         } catch (e) {
             console.log(e.message)
         }
-    }
+    }, [setSummary]);
 
     useEffect(() => {
         getSummary();
-    }, [])
+    }, [getSummary])
 
     return (
         <div className="data">
