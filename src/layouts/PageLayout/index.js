@@ -12,10 +12,10 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Jawa Tengah"
+    const title1 = "Temanggung"
     const title2 = "Blended Learning"
-    const slogan = "Berjuang untuk sukses tanpa kerja keras seperti mencoba memanen ketika kamu belum menanam."
-    const copyright = "2021 Jawa Tengah Blended Learning - Didukung oleh Geschool"
+    const slogan = "Pendidikan bukan cuma pergi ke sekolah dan mendapatkan gelar. Tapi juga soal memperluas pengetahuan dan menyerap ilmu kehidupan."
+    const copyright = "2022 Temanggung Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>
