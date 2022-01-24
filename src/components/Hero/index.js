@@ -29,9 +29,12 @@ function Hero(props) {
                                     </h1>
                                 </div>
                             </div>
+                            <br />
                             <div className="slogan">
                                 <p>
                                     {props.slogan}
+                                    <br />
+                                    (A.Muchtar Ali Yusuf, Bupati Kabupaten Bulukumba)
                                 </p>
                             </div>
                         </div>
