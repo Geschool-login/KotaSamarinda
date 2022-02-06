@@ -3,7 +3,6 @@ import Carousel from '../Carousel'
 import Data from '../Data'
 import DataMobile from '../Data/mobile'
 
-import fotoBupati from '../../assets/img/image 4.png'
 
 // CSS
 import "./style.css";
@@ -36,8 +35,6 @@ function Hero(props) {
                             <div className="slogan">
                                 <p>
                                     {props.slogan}
-                                    <br />
-                                    (A.Muchtar Ali Yusuf, Bupati Kabupaten Bulukumba)
                                 </p>
                             </div>
                         </div>
