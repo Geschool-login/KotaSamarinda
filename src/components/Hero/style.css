@@ -107,6 +107,10 @@
     display: none;
 }
 
+.hero-bg-mobile {
+    display: none;
+}
+
 @media (max-width: 991px) {
     .hero .content-container {
         padding: 5vh 5vh;
@@ -147,6 +151,14 @@
 
     .data-container {
         padding: 0 5vh;
+    }
+
+    .hero-bg {
+        display: none;
+    }
+
+    .hero-bg-mobile {
+        display: block;
     }
 }
 
@@ -208,6 +220,14 @@
         font-weight: bold;
         font-size: 24px;
         margin: 0;
+    }
+
+    .hero-bg {
+        display: none;
+    }
+
+    .hero-bg-mobile {
+        display: block;
     }
     
 }

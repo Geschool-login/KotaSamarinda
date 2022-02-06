@@ -3,13 +3,16 @@ import Carousel from '../Carousel'
 import Data from '../Data'
 import DataMobile from '../Data/mobile'
 
+import fotoBupati from '../../assets/img/image 4.png'
+
 // CSS
 import "./style.css";
 
 function Hero(props) {
     return (
         <div className="col-12 hero-container">
-            <div style={{ backgroundImage: `linear-gradient(171.31deg, rgba(0, 0, 0, 0.63) 81.78%, rgba(255, 255, 255, 0) 95.16%), url(${props.background})` }} className="hero-background col-12"></div>
+            <div style={{ backgroundImage: `linear-gradient(171.31deg, rgba(0, 0, 0, 0.63) 81.78%, rgba(255, 255, 255, 0) 95.16%), url(${props.background})` }} className="hero-background hero-bg col-12"></div>
+            <div style={{ backgroundImage: `linear-gradient(171.31deg, rgba(0, 0, 0, 0.63) 81.78%, rgba(255, 255, 255, 0) 95.16%), url(${props.backgroundMobile})` }} className="hero-background hero-bg-mobile col-12"></div>
             <div className="col-12 hero">
                 <div className="content-container mb-3">
                     <div className="col-xs-12 col-sm-7 col-md-6 col-lg-8 left-side text-light" data-page={props.appName}>

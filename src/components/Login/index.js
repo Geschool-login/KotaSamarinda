@@ -49,7 +49,7 @@ function Login(props) {
         setValidationEmail(false)
         setValidationPassword(false)
 
-        fetch("https://sleman.geschool.net/_api/main/login", {
+        fetch("/_api/main/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
