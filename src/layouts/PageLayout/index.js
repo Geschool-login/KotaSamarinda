@@ -13,10 +13,10 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Kalimantan Timur"
+    const title1 = "Kota Samarinda"
     const title2 = "Blended Learning"
-    const slogan = "Orang yang bijak akan belajar ketika mereka paham dan bisa. Sedangkan orang yang bodoh belajar hanya karena terpaksa."
-    const copyright = "2022 Kalimantan Timur Blended Learning - Didukung oleh"
+    const slogan = "Belajar daring di rumah seharusnya tidak menjadi kesempatan untuk kamu bisa bermalas-malasan. Ingat, saat kamu malas, ada banyak orang yang terus berjuang menyusulmu."
+    const copyright = "2022 Kota Samarinda Blended Learning - Didukung oleh"
 
     return (
         <div>
