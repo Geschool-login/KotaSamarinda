@@ -51,7 +51,7 @@ function Index() {
             {
                 logos.length > 0 ?
                 <div>
-                <h4 className="mb-5">Mereka telah bergabung bersama Geschool</h4>
+                {/* <h4 className="mb-5">Mereka telah bergabung bersama Geschool</h4> */}
                     <Slider {...carouselProperties}
                         autoplay
                         autoplaySpeed={2000}

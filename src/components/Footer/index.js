@@ -8,22 +8,22 @@ function Index( props ) {
         <footer className="col-12 footer">
             <div className="justify-content-center">
                 <div className="col-12 text-light">
-                    <ul className="list-inline d-flex footer-list">
+                    {/* <ul className="list-inline d-flex footer-list">
                         <li>
                             <a target="_blank" rel="noreferrer" href="https://s.id/geschool" className="footer-link bold">Road Map to Geschool</a>
                         </li>
-                    </ul>
+                    </ul> */}
                     <ul className="list-inline d-flex footer-list link-list">
                         <li>
-                            <a target="_blank" rel="noreferrer" href="https://padangpariamankab.go.id/" className="footer-link">Pemerintah Kabupaten Padang Pariaman</a>
+                            <a target="_blank" rel="noreferrer" href="https://kaltimprov.go.id/" className="footer-link">Pemerintah Provinsi Kalimantan Timur</a>
                         </li>
                         <li>
-                            <a target="_blank" rel="noreferrer" href="http://disdikbud.padangpariamankab.go.id/ " className="footer-link">Disdikbud Pariaman</a>
+                            <a target="_blank" rel="noreferrer" href="https://web.disdikbud.kaltimprov.go.id/" className="footer-link">Dinas Pendidikan Provinsi Kalimantan Timur</a>
                         </li>
                     </ul>
                 </div>
                 <div className="col-12 copyright mt-2">
-                    &copy; {props.copyright}
+                    &copy; {props.copyright} <a target="_blank" rel="noreferrer" href="https://s.id/geschool" className="footer-link bold" style={{textDecoration: 'underline'}}>Geschool</a>
                 </div>
             </div>
         </footer>

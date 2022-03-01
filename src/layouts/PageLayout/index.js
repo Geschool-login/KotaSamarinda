@@ -13,10 +13,10 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title1 = "Padang Pariaman"
+    const title1 = "Kalimantan Timur"
     const title2 = "Blended Learning"
-    const slogan = "Jika kau menginginkan sesuatu dalam hidupmu yang tak pernah kau punya. Kau harus melakukan sesuatu yang belum pernah kau lakukan. "
-    const copyright = "2022 Padang Pariaman Blended Learning - Didukung oleh Geschool"
+    const slogan = "Orang yang bijak akan belajar ketika mereka paham dan bisa. Sedangkan orang yang bodoh belajar hanya karena terpaksa."
+    const copyright = "2022 Kalimantan Timur Blended Learning - Didukung oleh"
 
     return (
         <div>
